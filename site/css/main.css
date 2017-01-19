@@ -43,7 +43,10 @@ nav li {
 	font-size: 32px;
 }
 
-
+nav a {
+	text-decoration: none;
+	color: white;
+}
 .main {
 	display: flex;
 	flex-direction: row;
@@ -91,12 +94,15 @@ footer * {
 	
 }
 
-.hover {
-	background-color: black;
-	color: white;
-	
+sounds {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+.dancer {
+	background-image: url(../img/bananadance.gif);
+}
 
 
 @media only screen 
@@ -107,6 +113,12 @@ footer * {
  aside {
 	 display: none;
  }
+ 
+ sounds {
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
 	
 	
   }
